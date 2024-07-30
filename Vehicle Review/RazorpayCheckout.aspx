@@ -10,7 +10,7 @@
      <form action="RazorpayCallBack.aspx" method="post">
          <script
              src = "https://checkout.razorpay.com/v1/checkout.js"
-             data-key = "rzp_test_kLX7L8BYDbH8a2"
+             data-key = "Enter Key"
              data-amount="<%=amount%>""
              data-name="<%=name%>"
              data-description="<%=product%>"
