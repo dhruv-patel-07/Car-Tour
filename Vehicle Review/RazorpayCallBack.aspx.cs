@@ -17,8 +17,8 @@ namespace Vehicle_Review
                 string paymentId = Request.Form["razorpay_payment_id"];
                 string orderId = Request.Form["razorpay_order_id"];
                 string signature = Request.Form["razorpay_signature"];
-                string key = "rzp_test_kLX7L8BYDbH8a2";
-                string secret = "bqFMooSdJGjmiE7JagpU9YZS";
+                string key = "Enter Public key hear";
+                string secret = "Enter Secret key hear";
 
                 RazorpayClient clint = new RazorpayClient(key, secret);
                 Dictionary<string, string> attributes = new Dictionary<string, string>();
